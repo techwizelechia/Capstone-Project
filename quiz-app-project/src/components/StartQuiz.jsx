@@ -38,7 +38,7 @@ const QuizStart = ({ onStart }) => {
       </div>
       <button
         onClick={() => onStart({ topic, difficulty, numberOfQuestions })}
-        className="bg-blue-500 text-white px-4 py-2 rounded"
+        className="bg-blue-500 text-white px-2 py-2 rounded"
       >
         Start Quiz
       </button>
